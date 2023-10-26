@@ -1,2 +1,2 @@
 # LandPage_busco
-Landpage com informações sobre a busco mais barato
+Este repositório contém o código-fonte e recursos para uma landpage informativa sobre nossa plataforma de busca de preços mais baratos.
