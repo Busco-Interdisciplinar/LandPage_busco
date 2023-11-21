@@ -4,7 +4,8 @@
 }
 header{
     width: 100%;
-    background-color: green;
+    background-color: #63CF53;
+    position: fixed;
 }
 nav{
     display: flex;
@@ -23,6 +24,9 @@ a{
     color: white;
     text-decoration: none;
 }
+h3{
+    color: #1b4b11;
+}
 
 /* MAIN */
 main{
@@ -32,7 +36,7 @@ main{
     flex-direction: column;
 }
 #bloco1{
-    margin-top: 1rem;
+    padding-top: 3rem;
     margin-bottom: 1rem;
     display: flex;
     align-items: center;
@@ -40,4 +44,38 @@ main{
 }
 #bloco1>img{
     width: 96%;
+}
+
+#bloco2{
+    background-color: #61a255;
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #93c18b;
+}
+.image{
+    padding-top: 0.5rem;
+    width: 96%;
+    margin-bottom: 0.5rem;
+}
+.text-wrapper, .txt{
+    width: 96%;
+    text-align: start;
+}
+
+#bloco3{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #61a255;
+}
+
+#bloco4{
+    padding-top: 1rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    align-content: center;
+    background-color: #7bbb7b;
 }
